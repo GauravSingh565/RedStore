@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="shortcut icon" href="./images/logo.png" type="image/png">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>RedStore</title>
+</head>
+
+<body>
+
+    <!-- hrader section--------------------------------------------------- -->
+
+
+
+
+
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <a href="index.html"> <img src="./images/logo.png"></a>
+            </div>
+            <nav>
+                <ul id="ulitem">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="product.html">Products</a></li>
+                    <li><a href="#">Account</a></li>
+                </ul>
+
+            </nav>
+            <a href="cart.html"> <img src="./images/cart.png" class="cart"></a>
+            <img src="./images/menu.png" class="menu" onclick="menubtn()">
+        </div>
+
+    </div>
+
+
+    <!-- hrader section--------------------------------------------------- -->
+
+
+    <!-- account section--------------------------------------------- -->
+
+    <div class="account_page">
+        <div class="container">
+            <div class="row">
+                <div class="col_2">
+                    <img src="./images/image1.png" class="acc-img">
+                </div>
+                <div class="col_2">
+                    <div class="form_container">
+
+                        <div class="form_btn">
+                            <span onclick="login()">Login</span>
+                            <span onclick="register()" id="reg">Register</span>
+                            <hr id="indicator">
+                        </div>
+                        <form id="logform">
+                            <input type="text" placeholder="User Name">
+                            <input type="password" placeholder="Password">
+                            <button type="submit" class="btn">Login</button>
+                            <a href="">Forgot Password</a>
+
+                        </form>
+                        <form id="regform">
+                            <input type="text" placeholder="User Name">
+                            <input type="email" placeholder="Email">
+                            <input type="password" placeholder="Password">
+                            <button type="submit" class="btn">Register</button>
+
+
+                        </form>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- account section--------------------------------------------- -->
+
+
+
+
+
+
+    <!-- footer-------------------------------------------------------------- -->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col_1">
+                    <h3>Download Our App</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo quidem nihil iusto dolorem! Iure, sapiente?</p>
+                    <div class="app-logo">
+                        <img src="./images/play-store.png" alt="" srcset="">
+                        <img src="./images/app-store.png" alt="" srcset="">
+                    </div>
+                </div>
+                <div class="footer-col_2">
+                    <img src="./images/logo-white.png" alt="" srcset="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, nemo!</p>
+                </div>
+                <div class="footer-col_3">
+                    <h3>Usefull Links</h3>
+                    <ul>
+                        <li>Coupuns</li>
+                        <li>Blog Post</li>
+                        <li>Return Policy</li>
+                        <li>Join Affiliate</li>
+                    </ul>
+                </div>
+                <div class="footer-col_4">
+                    <h3>Follow Us</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Instagram</li>
+                        <li>Linkdin</li>
+                        <li>Twitter</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">Copyright-2020-RedStore</p>
+        </div>
+    </div>
+
+
+
+    <!-- footer-------------------------------------------------------------- -->
+
+
+
+
+    <script src="./js/min.js"></script>
+</body>
+
+</html>
